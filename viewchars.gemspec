@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["J. R. Schmid"]
   spec.email         = ["jrs+git@weitnahbei.de"]
 
-  spec.summary       = ""
-  spec.description   = ""
+  spec.summary       = "Little command line tool to help find the way through the character jungle ... or jumble"
+  spec.description   = "See what codepoints are hiding behind a string, or what string might be hiding behind a list of numbers."
   spec.homepage      = "https://github.com/sixtyfive/viewchars"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
