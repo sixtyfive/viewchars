@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+# -----------------------------------------------------------------------------
+# viewchars: interpret bin/oct/dec/hex number(s) in specified character
+#        encoding and try to convert to UTF-8, then display the result
+#        if possible.
+# (C) 2021 J. R. Schmid <jrs@weitnahbei.de>
+# May be shared and used according to CC BY-SA 4.0
+# (https://creativecommons.org/licenses/by-sa/4.0/)
+# -----------------------------------------------------------------------------
+
+if __FILE__.match(/exe\/viewchars$/) 
+  require_relative '../lib/viewchars'
+else
+  require 'viewchars'
+end
+
+Viewchars::CLI.start

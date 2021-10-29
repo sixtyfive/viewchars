@@ -1,0 +1,47 @@
+PATH
+  remote: .
+  specs:
+    viewchars (0.1.0)
+      colorize
+      slop
+      tty-table
+      unicode-name
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (0.8.1)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    rake (13.0.6)
+    slop (4.9.1)
+    strings (0.2.1)
+      strings-ansi (~> 0.2)
+      unicode-display_width (>= 1.5, < 3.0)
+      unicode_utils (~> 1.4)
+    strings-ansi (0.2.0)
+    tty-color (0.6.0)
+    tty-screen (0.8.1)
+    tty-table (0.12.0)
+      pastel (~> 0.8)
+      strings (~> 0.2.0)
+      tty-screen (~> 0.8)
+    unicode-display_width (2.1.0)
+    unicode-name (1.10.0)
+      unicode-types (~> 1.7)
+    unicode-types (1.7.0)
+    unicode_utils (1.4.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  colorize
+  rake (~> 13.0)
+  slop
+  tty-table
+  unicode-name
+  viewchars!
+
+BUNDLED WITH
+   2.2.28
